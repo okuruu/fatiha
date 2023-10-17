@@ -1,5 +1,6 @@
 <script lang="ts">
     import '../app.css';
+    import { baseConfiguration } from '$lib/baseConfiguration';
 </script>
 
 <div class="container mx-auto">
@@ -19,7 +20,7 @@
             </div>
         </div>
         <div class="navbar-center">
-            <a href="/" class="btn btn-ghost normal-case text-xl">Fatiha</a>
+            <a href="/" class="btn btn-ghost normal-case text-xl">{ $baseConfiguration.pageName }</a>
         </div>
         <div class="navbar-end">
             <button class="btn btn-ghost btn-circle">
