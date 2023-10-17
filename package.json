@@ -1,7 +1,8 @@
 {
 	"name": "fatiha",
-	"version": "0.0.1",
+	"version": "0.0.3",
 	"private": true,
+	"author": "Gilby Dhilega Yodiaz",
 	"scripts": {
 		"dev": "vite dev",
 		"build": "vite build",
@@ -11,6 +12,7 @@
 	},
 	"devDependencies": {
 		"@sveltejs/adapter-auto": "^2.0.0",
+		"@sveltejs/adapter-static": "^2.0.3",
 		"@sveltejs/kit": "^1.20.4",
 		"autoprefixer": "^10.4.16",
 		"daisyui": "^3.7.7",
